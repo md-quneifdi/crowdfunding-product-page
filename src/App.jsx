@@ -1,26 +1,11 @@
 import React from "react";
-import {
-  Navbar,
-  Hero,
-  AboutUs,
-  Services,
-  Products,
-  Testimonials,
-  ContactUs,
-  Footer,
-} from "./components";
+import { Navbar, Hero } from "./components";
 
 function App() {
   return (
-    <div className="App bg-zinc-800 text-white">
+    <div className="App bg-slate-300">
       <Navbar />
       <Hero />
-      <AboutUs />
-      <Services />
-      <Products />
-      <Testimonials />
-      <ContactUs />
-      <Footer />
     </div>
   );
 }
